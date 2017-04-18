@@ -1,0 +1,41 @@
+{
+  "coord": {
+    "lon": 116.25,
+    "lat": 31.99
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 13.18,
+    "pressure": 1026.52,
+    "humidity": 77,
+    "temp_min": 13.18,
+    "temp_max": 13.18,
+    "sea_level": 1033.23,
+    "grnd_level": 1026.52
+  },
+  "wind": {
+    "speed": 4.27,
+    "deg": 348.504
+  },
+  "clouds": {
+    "all": 80
+  },
+  "dt": 1489997051,
+  "sys": {
+    "message": 0.007,
+    "country": "CN",
+    "sunrise": 1489961921,
+    "sunset": 1490005594
+  },
+  "id": 1790885,
+  "name": "Wuyang",
+  "cod": 200
+}

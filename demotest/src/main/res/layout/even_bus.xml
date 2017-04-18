@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="btn0"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="btn1"
+        android:textAllCaps="false"
+        />
+
+    <com.ggtf.xieyingwu.demotest.SelfButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff123456"
+        android:onClick="btnClick"
+        android:padding="30dp"
+        android:text="btn2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>
