@@ -6,4 +6,8 @@ package com.ggtf.xieyingwu.demotest;
 
 public class Son extends Father {
     private int age;
+
+    public Son(String name) {
+        super(name);
+    }
 }

@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         utils = new BrightnessUtils(this);
         brightness = utils.getScreenBrightness();
         showText(false);
+
     }
 
     public void btnClick(View view) {

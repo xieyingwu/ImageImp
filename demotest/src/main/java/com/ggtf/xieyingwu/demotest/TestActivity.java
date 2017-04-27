@@ -6,13 +6,28 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import java.lang.reflect.Constructor;
+
 public class TestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recycler_test);
-        readFocus();
+//        readFocus();
+        testConstructor();
+    }
+
+    private void testConstructor() {
+        try {
+            Class<?> aClass = Class.forName(Father.class.getName());
+            Constructor declaredConstructor = aClass.getDeclaredConstructor();
+            declaredConstructor.setAccessible(true);
+            Object newInstance = declaredConstructor.newInstance();
+            Log.w("TEST", newInstance.toString());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void readFocus() {

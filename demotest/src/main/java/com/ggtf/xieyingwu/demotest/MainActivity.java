@@ -359,7 +359,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
                 EventBus.getDefault().post("Java");
                 break;
             case R.id.btn2:
-                EventBus.getDefault().post(new Father());
+                EventBus.getDefault().post(new Father(""));
                 break;
         }
     }
