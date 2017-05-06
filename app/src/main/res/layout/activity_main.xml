@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ggtf.xieyingwu.imageimp.MainActivity">
+    tools:context="com.ggtf.xieyingwu.imageimp.MainActivity"
+    >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        />
 
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/drawee_img"
@@ -21,13 +24,23 @@
         android:visibility="gone"
         />
 
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:hint="Input Method"
+        android:inputType="text"
+        />
+
     <ImageView
         android:id="@+id/image0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@null"
         android:src="@mipmap/ic_launcher"
-        android:visibility="gone" />
+        android:visibility="gone"
+        />
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gif_image"
