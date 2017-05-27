@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com_adobe_image_editor_crop_labels">
+        <item>@string/feather_original</item>
+        <item>@string/feather_square</item>
+        <item>@string/feather_custom</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>1:2</item>
+        <item>2.35:1</item>
+    </string-array>
+
+    <string-array name="com_adobe_image_editor_crop_values">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>1:2</item>
+        <item>235:100</item>
+    </string-array>
+</resources>

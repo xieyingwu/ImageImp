@@ -1,1 +1,1 @@
-include ':app', ':brightnessapp', ':demotest', ':weatherservice'
+include ':app', ':brightnessapp', ':demotest', ':weatherservice', ':photo.editor.ihoment.com', ':photoeditor', ':cloudphoto', ':runtimepermissiontest'

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PhotoEditorSdkTest</string>
+    <string name="my_filter">MyFilter</string>
+</resources>
